@@ -424,17 +424,30 @@ section {
   float: right;
   font-style: normal;
 }
-
 .skills .progress-bar-wrap {
   background: #dce8f8;
-  height: 10px;
+  height: 20px;
+  border-radius: 7px;
 }
 
 .skills .progress-bar {
   width: 1px;
-  height: 10px;
-  transition: .9s;
+  height: 20px;
+  transition: 1.2s;
   background-color: #149ddd;
+  border-radius: 7px;
+}
+.skill-item{
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid #d9e0ff;
+  color: #173b6c;
+  margin: 20px;
+  padding: 20px;
+  background: #fff;
+  width: fit-content;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
 /*--------------------------------------------------------------
