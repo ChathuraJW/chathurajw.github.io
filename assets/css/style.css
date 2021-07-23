@@ -446,6 +446,7 @@ section {
   margin: 20px;
   padding: 20px;
   background: #fff;
+  width: -moz-fit-content;
   width: fit-content;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
