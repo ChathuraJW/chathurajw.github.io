@@ -1,2 +1,5 @@
-# My_Portfolio
-My portfolio is a simple single-page web application.
+# My Portfolio
+
+My portfolio is a simple single-page monolithic web application.
+
+The template credits goes to BootstrapMade.
