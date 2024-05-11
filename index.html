@@ -3,10 +3,10 @@
 
 <!-- Basic -->
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
 
 <!-- Mobile Metas -->
-<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
 
 <!-- Site Metas -->
 <title>Portfolio</title>
@@ -23,8 +23,7 @@
 <link rel="stylesheet" href="css/style.css">
 <!-- Responsive CSS -->
 <link rel="stylesheet" href="css/responsive.css">
-<!-- Custom CSS -->
-<link rel="stylesheet" href="css/custom.css">
+
 <script src="js/modernizr.js"></script>
 
 </head>
@@ -281,7 +280,6 @@
 
     <div id="portfolio" class="section lb">
         <div class="container">
-
             <div class="section-title text-left">
                 <h3>Portfolio</h3>
                 <p>
@@ -307,21 +305,21 @@
                 <div class="col-md-12 gallery-grid gal_a" id="gallery_grid_a">
                     <div class="accordion" id="accordion_a">
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="gal_a_h1">
+                            <span class="accordion-header" id="gal_a_h1">
                                 <button class="btn btn-link accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#gal_a_2" aria-expanded="false" aria-controls="gal_a_2"
                                     onclick="updateHeight('portfolio_gallery', 'gallery_grid_a')">
                                     Leader Selection for Single Point of Failure for Single Leader, Leader-Follower
                                     Drone Swarm
                                 </button>
-                            </h2>
+                            </span>
                             <div id="gal_a_2" class="accordion-collapse collapse show" aria-labelledby="gal_a_h1">
                                 <div class="accordion-body">
                                     <ul>
                                         <li>
                                             This was a one-year-long thesis-based research I conducted during my last
                                             year of undergraduate under
-                                            the supervision of Prof. Prasad Wimalarathne and Dr Kasun Karunanayaka.
+                                            the supervision of Prof. Prasad Wimalarathne and Dr. Kasun Karunanayaka.
                                         </li>
                                         <li>
                                             The primary goal of this research is to provide a solution to the single
@@ -355,10 +353,8 @@
                                                 <li>Thesis: <a
                                                         href="https://drive.google.com/file/d/1Lp3r-eEUwxpr-ryoUs7f-w_WasvX5Pi_/view?usp=sharing"
                                                         target="_blank">Click hear</a></li>
-                                                <li>Research paper published at IEEE IES ONCON23: <a
-                                                    class="url-wrap"
-                                                        href="https://ieeexplore.ieee.org/document/10431018"
-                                                        target="_blank">https://ieeexplore.ieee.org/document/10431018</a>
+                                                <li>Research paper published at IEEE IES ONCON23:
+                                                    <a href="https://doi.org/10.1109/ONCON60463.2023.10431018" target="_blank">10.1109/ONCON60463.2023.10431018</a>
                                                 </li>
                                                 <li>A review paper accepted to IEEE ISIE24.</li>
                                                 <li>Working on the journal paper.</li>
@@ -368,15 +364,15 @@
                                 </div>
                             </div>
                         </div>
-
+                        <hr>
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="gal_a_h2">
+                            <span class="accordion-header" id="gal_a_h2">
                                 <button class="btn btn-link" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#gal_a_1" aria-expanded="true" aria-controls="gal_a_h2"
                                     onclick="updateHeight('portfolio_gallery', 'gallery_grid_a')">
                                     Audio Fingerprinting Algorithm Optimization Using Genetic Algorithms
                                 </button>
-                            </h2>
+                            </span>
                             <div id="gal_a_1" class="accordion-collapse collapse" aria-labelledby="gal_a_h1">
                                 <div class="accordion-body">
                                     <ul>
@@ -410,27 +406,26 @@
                                             algorithms.
                                         </li>
                                         <li>
-                                            Python3 implementation for the developed optimization algorithm can be found in <a class="url-wrap" href="https://github.com/ChathuraJW/AFP_Optimization" target="_blank">this</a> link.
+                                            Python3 implementation for the developed optimization algorithm can be found in 
+                                            <a href="https://github.com/ChathuraJW/AFP_Optimization" target="_blank">this</a> link.
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
 
                 <div class="col-md-12 gallery-grid gal_b" id="gallery_grid_b" style="display: none;">
                     <div class="accordion" id="accordion_b">
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="gal_b_h1">
+                            <span class="accordion-header" id="gal_b_h1">
                                 <button class="btn btn-link accordion-button" type="button" data-bs-toggle="collapse"
                                 onclick="updateHeight('portfolio_gallery', 'gallery_grid_b')"
                                     data-bs-target="#gal_b_1" aria-expanded="true" aria-controls="gal_b_1">
                                     Undergraduate teaching assistantship at UCSC
                                 </button>
-                            </h2>
+                            </span>
                             <div id="gal_b_1" class="accordion-collapse collapse show" aria-labelledby="gal_b_h1">
                                 <div class="accordion-body">
                                     <ul>
@@ -463,13 +458,13 @@
                 <div class="col-md-12 gallery-grid gal_c" id="gallery_grid_c" style="display: none;">
                     <div class="accordion" id="accordion_c">
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="gal_c_h1">
+                            <span class="accordion-header" id="gal_c_h1">
                                 <button class="btn btn-link accordion-button" type="button" data-bs-toggle="collapse"
                                 onclick="updateHeight('portfolio_gallery', 'gallery_grid_c')"
                                     data-bs-target="#gal_c_1" aria-expanded="true" aria-controls="gal_c_1">
                                     Mentored research interns at UCSC
                                 </button>
-                            </h2>
+                            </span>
                             <div id="gal_c_1" class="accordion-collapse collapse show" aria-labelledby="gal_c_h1">
                                 <div class="accordion-body">
                                     <ul>
@@ -504,13 +499,13 @@
                 <div class="col-md-12 gallery-grid gal_d" id="gallery_grid_d" style="display: none;">
                     <div class="accordion" id="accordion_d">
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="gal_d_h1">
+                            <span class="accordion-header" id="gal_d_h1">
                                 <button class="btn btn-link accordion-button" type="button" data-bs-toggle="collapse"
                                 onclick="updateHeight('portfolio_gallery', 'gallery_grid_d')"
                                     data-bs-target="#gal_d_1" aria-expanded="true" aria-controls="gal_d_1">
                                     HomeLab
                                 </button>
-                            </h2>
+                            </span>
                             <div id="gal_d_1" class="accordion-collapse collapse show" aria-labelledby="gal_d_h1">
                                 <div class="accordion-body">
                                     <ul>
@@ -555,15 +550,15 @@
                                 </div>
                             </div>
                         </div>
-
+                        <hr>
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="gal_d_h2">
+                            <span class="accordion-header" id="gal_d_h2">
                                 <button class="btn btn-link accordion-button" type="button" data-bs-toggle="collapse"
                                 onclick="updateHeight('portfolio_gallery', 'gallery_grid_d')"
                                     data-bs-target="#gal_d_2" aria-expanded="true" aria-controls="gal_d_2">
                                     Software Projects
                                 </button>
-                            </h2>
+                            </span>
                             <div id="gal_d_2" class="accordion-collapse collapse" aria-labelledby="gal_d_h2">
                                 <div class="accordion-body">
                                     <ul>
@@ -620,19 +615,19 @@
                                                     <a href="https://firebog.net/" target="_blank">https://firebog.net</a> and updates the list daily via scheduled 
                                                     GitHub actions.
                                                     <br>
-                                                    Project Repository: <a class="url-wrap" href="https://github.com/ChathuraJW/my_pihole_addlists" target="_blank">https://github.com/ChathuraJW/my_pihole_addlists</a>
+                                                    Project Repository can be found in <a href="https://github.com/ChathuraJW/my_pihole_addlists" target="_blank">this</a> link.
                                                 </dd>
                                                 <dt>File Sync</dt>
                                                 <dd>
                                                     This utility can be used to sync files between two systems.
                                                     <br>
-                                                    Project Repository: <a class="url-wrap" href="https://github.com/CodeBitters/FileSync" target="_blank">https://github.com/CodeBitters/FileSync</a>
+                                                    Project Repository can be found in <a href="https://github.com/CodeBitters/FileSync" target="_blank">this</a> link.
                                                 </dd>
                                                 <dt>RDBSync</dt>
                                                 <dd>
                                                     This is another utility written in Python3, and it facilitates data sync between two relational databases.
                                                     <br>
-                                                    Project Repository: <a class="url-wrap" href="https://github.com/CodeBitters/RDBSync" target="_blank">https://github.com/CodeBitters/RDBSync</a>
+                                                    Project Repository can be found in <a href="https://github.com/CodeBitters/RDBSync" target="_blank">this</a> link.
                                                 </dd>
                                             </dd>
                                         </li>
@@ -647,13 +642,13 @@
                 <div class="col-md-12 gallery-grid gal_e" id="gallery_grid_e" style="display: none;">
                     <div class="accordion" id="accordion_e">
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="gal_e_h1">
+                            <span class="accordion-header" id="gal_e_h1">
                                 <button class="btn btn-link accordion-button" type="button" data-bs-toggle="collapse"
                                 onclick="updateHeight('portfolio_gallery', 'gallery_grid_e')"
                                     data-bs-target="#gal_e_1" aria-expanded="true" aria-controls="gal_e_1">
                                     Conference Proceedings
                                 </button>
-                            </h2>
+                            </span>
                             <div id="gal_e_1" class="accordion-collapse collapse show" aria-labelledby="gal_e_h1">
                                 <div class="accordion-body">
                                     <ul>

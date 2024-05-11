@@ -2506,7 +2506,6 @@ select.mobile-device {
     padding-top: 7px;
 }
 
-.url-wrap{
-    display: block;
-    overflow: hidden;
+.accordion-item{
+    padding: 10px;
 }
