@@ -195,4 +195,16 @@ function updatePortfolioGalleryPosition(id_g, class_name, grid_id) {
 
 $(document).ready(function () {
   updateHeight("portfolio_gallery", "gallery_grid_a");
+
+  // update stats
+  const data = {
+    browser: navigator.userAgent,
+    platform: navigator.platform,
+    dateTime: new Date().toLocaleString(),
+  };
+
+  // Create the request
+  try {
+    $.post("http://ec2-18-233-220-146.compute-1.amazonaws.com", data);
+  } catch (e) {}
 });
